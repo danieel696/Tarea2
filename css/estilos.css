@@ -9,29 +9,35 @@ h1{
 }
 header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     display: block;
+    
 }
 body{
     text-align: center;
 }
+#grupo{
+    margin: 50px;
+}
 #menu{
     background: #CCCCCC;
-    padding: 5px 15px;
+    padding-right: 75%;
+   
 }
 #menu li{
-    display: flex-start;
+    display: inline-block;
     list-style: none; 
     padding: 5px;
     font: bold 14px verdana, sans-serif;
+    
 }
 #seccion{
-    float: left; /*ACOMODA A LOS ELEMENTOS DEPENDIENDO DEL LADO QUE LE INDIQUE*/
+    float: left; 
     width: 660px;
     margin: 100px;
     margin: 50px 50px 50px 220px;
     
 }
 #seccion2{
-    float: right; /*ACOMODA A LOS ELEMENTOS DEPENDIENDO DEL LADO QUE LE INDIQUE*/
+    float: right; 
     width: 660px;
     margin: 50px 220px 50px 50px;
 }
@@ -72,6 +78,6 @@ body{
     border-top: 2px solid #999999;
 }
 img{
-    width: 620px;
+    width: 600px;
 }
 
